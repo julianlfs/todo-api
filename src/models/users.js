@@ -13,9 +13,9 @@ const User = mongoose.model('User', {
         trim: true,
         lowercase: true,
         validate(value) {
-            if(!validator.isEmail()){
-                throw new Error('Email inválido')
-            }
+            //if(!validator.isEmail()){
+            //    throw new Error('Email inválido')
+            //}
         }
      },
      password: {
